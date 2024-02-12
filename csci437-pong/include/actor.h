@@ -1,9 +1,6 @@
 #ifndef ACTOR_H
 #define ACTOR _H
 
-
-#include <iostream>
-#include <stdio.h>
 #include <SDL.h>
 #include <string>
 #include "vec2D.h"
@@ -33,12 +30,12 @@ class actor
 public:
 
     //Constructors
-    actor(void)
+    actor(void);
 
     //Members
-    const std::string imageFilePath;
+    std::string imageFilePath;
 
-    const SDL_Rect boundingBox;
+    SDL_Rect boundingBox;
 
     vec2D position;
 
@@ -47,9 +44,7 @@ public:
     //Methods
     virtual bool collide(const &actor) const;
 
-    virtual void setBoundingBox();
-
-    SDL_Rect getBoundingBox();
+    virtual SDL_Rect setBoundingBox();
 
     vec2D getPosition();
 

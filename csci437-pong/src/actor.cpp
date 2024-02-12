@@ -17,32 +17,31 @@ Each actor can implement
 
 **/
 
-actor::actor(void);
+actor::actor(void)
 {
     imageFilePath = "";
 
-    boundingBox = nullptr;
+    boundingBox = setBoundingBox();
 
-    directionVelocity = vec2D dV(0,0);
+    vec2D placeholder(0.0f, 0.0f);
 
-    position = vec2D dV(0,0);
+    directionVelocity = placeholder;
+
+    position = placeholder;
 
 }
 
 
-SDL_Rect actor::getBoundingBox()
+
+SDL_Rect actor::setBoundingBox() //must be overwritten
 {
-    return boundingBox;
+    SDL_Rect placeholder;
+    return placeholder;
 }
 
-virtual void actor::setBoundingBox() //must be overwritten
+bool actor::collide(const &actor) const
 {
-    boundingBox = nullptr;
-}
-
-virtual bool actor::collide(const &actor) const
-{
-    if (SDL_IntersectRect(boundingBox, actor.boundingBox))
+    if (SDL_HasIntersection(&boundingBox, &actor.boundingBox))
     {
         return true;
     }

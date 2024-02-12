@@ -44,7 +44,7 @@ void csci437_img_error(const std::string& msg)
 void humanView::update(int elapsedTime) //humanView update method uses player input
 {
     //adaptive frame rate
-
+    gameLogic.update();
     //input handling to move paddle
 
     //
