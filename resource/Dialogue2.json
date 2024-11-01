@@ -1,0 +1,71 @@
+{
+	"gamestates":[
+		{
+			"scientist1":["Heyyy there little dude! Aw man, I love cats.", 
+							"Anytime you need some love and healing, you just come talk to me. Or Derek. Or Colleen. Or Janelle.", 
+							"...", 
+							"Especially Janelle. That dude could use some pettin' and destressin'."],
+			"scientist2":["Remember, you can try and trap the rodents by moving the supply crates before they see you.", 
+							"Approach. Analyze. Execute. Your plan, not the rodents. Work smarter, not harder."],
+			"scientist3":["Sup dawg!", 
+							"Or, I guess, cat.",
+							"I hear you're helping us out with those gnarly rats. They get even gnarlier when you get outside.",
+							"They're scaredy-cats, though. No offense. If you get loud enough for them to hear you, they'll freeze right up. Try pressing R to Hiss."],
+			"scientist4":["My savior! My meow-siah! My ingredient-finder! I was getting so nervous thinking about having to brave those mice to get my beaker.", 
+							"I know how scary it can be out there. Anytime you talk to me or the other scientists, it'll save your progress."]
+			
+		},
+
+		{
+			"scientist1":["You know, I was on a study that found petting cats can help you destress. Sometimes I think you're healing us more than we're healing you.", 
+							"Peace and love, little dude."],
+			"scientist2":["Thank you for your help thus far. You're a good little mouser. I hope you can find the rest of the ingredients soon. Your owner is very sick."],
+			"scientist3":["How's the mission going, my man? This settlement can be pretty confusing til you get your bearings.", 
+							"All our supply decks are on the bottom and right sides of camp."],
+			"scientist4":["OMG so cute. Sorry. Is that rude? You're really cute. Your owner is a lucky man."]
+			
+		}
+	],
+
+	"tutorial":	[
+		"Owner: Hey fluffster, how are you settling in?",
+		"Owner: All those years of studying and training, then eighteen long, long months in that tin can...",
+		"Owner: I'm so happy to finally be here and get to work. Everyone back on Earth is going to love our new home.",
+		"Owner: Just look around! Isn't it beautiful?",
+		"Owner: ARGHH! What the FUCK was that?!?!",
+		"Janelle: Rats!",
+		"Owner: No shit, rats! What was that thing?",
+		"Janelle: Rats, literally. Some kind of alien rodent. Very aggressive. Seems to be some sort of disease.",
+		"Janelle: Derek and I have been observing them. Other life forms here tend to steer clear.",
+		"Owner: Hold on - diseased? That thing just bit me!",
+		"Janelle: Yes. Very, very unfortunate. I was afraid this might happen. The good news is Derek and Seb have begun developing a cure.",
+		"Janelle: The bad news is the rodents have infested our supply decks and have blocked off the route to critical ingredients.",
+		"Janelle: Now that you are infected, it is imperative that we retrieve these missing ingredients.",
+		"Janelle: Oh! A cat! Of course! (How did I not think of that...?) Your cat is the perfect candidate for such a mission.",
+		"Owner: What do you say, pooks? Down to go chase some mice?",
+		"Janelle: That's great! To finish the cure, you'll need to collect a BEAKER, a THERMOMETER, a PLANT, and a VIAL OF BLOOD.",
+		"Owner: A vial of blood?",
+		"Janelle: Yeah, it's Seb's. She misplaced it. We think it contains some critical antibodies. She's built different.",
+		"Janelle: Okay, cat, here's what we know:",
+		"Janelle: The rodents are pretty much deaf. If they can't see you, they won't come after you. You can use the supply crates to stay hidden.",
+		"Janelle: Press E to SCRATCH a rodent.",
+		"Janelle: Press I to pick up ITEMS and TALK to my research team. They're smart cookies. Plenty of knowledge to gain from them.",
+		"Janelle: If you forget any of this, you can press ESC to PAUSE, where you'll find our report on your abilities and how to control them.",
+		"Janelle: Good luck!",
+		"Owner: Man, I'm so glad they let me bring you with me.",
+		"Owner: I believe in you, pooks. Go get 'em!"
+	],
+
+	"preBoss": [
+		"Janelle: Oh, good, you've collected all the items. Just in time. Your owner has taken a turn for the worse. Come with me!",
+		"Owner: hrrgh...",
+		"Colleen: Oh man... purple is not your color.",
+		"Owner: HRRARGH!",
+		"Derek: Our ingredients!",
+		"Seb: My blood!",
+		"Derek: We can't thank you enough for getting these.",
+		"Janelle: We need time to finish the cure with the missing ingredients. We need to stall.",
+		"Janelle: You know him best, and you know the rodents best. Can you restrain him using the boxes in here?",
+		"Janelle: He needs to be completely immobile for us to administer the cure. Be careful. His mind is gone and his body is violent."
+	]
+}
